@@ -1,9 +1,41 @@
+/*------------- Assets -----------------
+Fonts;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+
+Colours;
+background color - rgb(31, 32, 43)
+bright pink - #ff0066
+white - #ffffff
+---------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(31, 32, 43);
-    color: whitesmoke; 
+    background-color: #333;
+    color: #ff0066; 
+    font-size: 16px;
+
+}
+
+/*---- Header ----*/
+header nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
 }
