@@ -87,8 +87,7 @@ header a {
     align-items: center;
     flex-wrap: wrap;  
     box-sizing: border-box;  
-   
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
 }
 
 .portfolio h2 {
@@ -100,29 +99,41 @@ header a {
    
 }
 
-.portfolio-left {
+.portfolio h3 {
     color: #fff;
-    font-size: 26px;
+    font-size: 24px;
+}
+
+.portfolio h3 span {
+    font-weight: 400;
+    color: #fff;
+}
+
+.portfolio p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 21px;
+    line-height: 27px;
+}
+.portfolio-left {
     flex-direction: column;
-    width: 550px;
-    height: 350px;
+    width: 650px;
+    height: 450px;
     margin-top: 91px;
    
-    margin-right: 76px;
+    margin-right: 86px;
     
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 
 .portfolio-right {
-    color: #fff;
-    font-size: 24px;
     flex-direction: column;
-    width: 550px;
-    height: 350px; 
+    width: 650px;  /*w 550 h 350*/
+    height: 450px; 
     margin-top: 91px;  
    
-    margin-left: 76px;
-    background-color: lightblue;
+    margin-left: 86px;
+    /*background-color: lightblue;*/
 }
 
 .about {
@@ -130,7 +141,7 @@ header a {
     background-size: cover;
     background-position: center;
     height: 700px;  
-    margin-top: 97px;  
+     
 }
 
 .about-top h3 {
