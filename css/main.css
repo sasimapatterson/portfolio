@@ -16,7 +16,7 @@ white - #ffffff
 }
 
 body {
-    /*background-color: rgb(31, 32, 43);*/
+    background-color: rgb(31, 32, 43);
     font-family: 'Montserrat', sans-serif;    
     font-size: 16px;
 }
@@ -184,14 +184,14 @@ header a {
     flex-direction: row;
     justify-content: space-between;
     width: 255px;
-    margin-left: 20px;
+    margin-left: 40px;
   
 }
 
 .social-icons p {
     font-size: 42px;
+    color: none;
+    background-color: #ff0066;
+    border-radius: 50%;
    
-    border: 2px solid #ff0066;
-    border-radius: 70px 50px;
-    background-color: yellow;
 }
