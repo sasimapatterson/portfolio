@@ -177,21 +177,46 @@ header a {
     color: #fff;
 }
 
-
-
 .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 255px;
     margin-left: 40px;
+    
   
 }
+/*
+.fa {
+   
+    text-align: center;
+    padding-top: 6px;
+    background-color: #ff0066;         
+}*/
 
-.social-icons p {
+.fa-github {
+    
+    color: #ff0066;
     font-size: 42px;
-    color: none;
+    
+}
+
+.fa-twitter {
+    color: rgb(31, 32, 43);
     background-color: #ff0066;
     border-radius: 50%;
-   
+    padding: 5px;
+    font-size: 30px;
 }
+
+.fa-linkedin-in {
+    color: rgb(31, 32, 43);
+    background-color: #ff0066;
+    border-radius: 50%;
+    padding: 6px;
+    padding-left: 8px;
+    font-size: 29px;
+} 
+
+
+
