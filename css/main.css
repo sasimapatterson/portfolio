@@ -16,12 +16,12 @@ white - #ffffff
 }
 
 body {
-    background-color: rgb(31, 32, 43);
+    /*background-color: rgb(31, 32, 43);*/
     font-family: 'Montserrat', sans-serif;    
     font-size: 16px;
 }
 
-/*---- Header ----*/
+/*---------- Header ----------*/
 
 header {
     
@@ -79,6 +79,8 @@ header a {
     
 }
 
+/*--------- Portfolio ---------*/
+
 .content-wrapper {
     max-width: 100%;
     display: flex;
@@ -114,6 +116,7 @@ header a {
     font-size: 21px;
     line-height: 27px;
 }
+
 .portfolio-left {
     flex-direction: column;
     width: 650px;
@@ -132,6 +135,8 @@ header a {
     margin-left: 86px;
     /*background-color: lightblue;*/
 }
+
+/*--------- About Me ----------*/
 
 .about {
     background-image: url('../img/about-me.png');
@@ -165,40 +170,55 @@ header a {
     line-height: 32px;
 }
 
-.footer-content h2 {
+/*----------- Footer ----------*/
+footer h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     color:#ff0066;
     margin-top: 44px;
+    background-color: purple;
 }
 
 .footer-content {
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: green;
 }
 
+.contact {
+    width: 40%;
+    text-align: center;
+    background-color: red;
+}
+
+.social {
+    width: 40%;
+    text-align: center;
+    background-color: blue;
+    margin: auto 0;
+}
+
+.social-icons p {
+    background-color: orange;
+    text-align: center;
+}
 .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 255px;
-    margin-left: 40px;
     
-  
+    background-color: yellow;
 }
-/*
-.fa {
-   
-    text-align: center;
-    padding-top: 6px;
-    background-color: #ff0066;         
-}*/
 
 .fa-github {
     
     color: #ff0066;
-    font-size: 42px;
-    
+    font-size: 42px;    
 }
 
 .fa-twitter {
@@ -217,6 +237,49 @@ header a {
     padding-left: 8px;
     font-size: 29px;
 } 
+/*
+.hello {
+    width: 20%;
+    
+    background: lightgreen;
+}*/
 
+.container {
+    position: relative;
+    width: 30%;
+    
+}
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;    
+}
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff0066;
+    border-radius: 50%;
+}
 
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate (-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
