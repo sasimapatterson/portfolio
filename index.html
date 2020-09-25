@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/082d0c1256.js" crossorigin="anonymous"></script>
    
     <title>Portfolio</title>
 </head>
@@ -12,60 +16,70 @@
 </html>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
+           <!--- <div class="menu"> --->
+                <nav>
+                    <ul>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+                
         </header>
 
         <main>
             <section class="hero-area">
-                <div id=hero>
-                    <h1>let's code something cool</h1>
+                <div id="hero">
+                    <h1>let's <span>code</span><br> something cool</h1>
                 </div>
             </section>
 
             <section class="portfolio">
+                <h2>my portfolio</h2>
                 <div class="content-wrapper">
-                    <h2>my portfolio</h2>
+                    
                     <div class="portfolio-left">
-                        <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings" >
+                        <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings">
                     </div>
                     <div class="portfolio-right">
                         <h3>Rogue Picking Website<br>
-                        HTML5 & CSS from Photoshop Design Comp</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae. Totam molestiae sapiente rerum, tenetur id commodi neque ab perspiciatis!</p>
+                        <span>HTML5 & CSS from Photoshop Design Comp</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quibusdam sit consequuntur impedit mollitia nobis, fugit suscipit quos amet esse ea recusandae beatae placeat hic adipisci, corrupti inventore excepturi quo optio! Ex vitae nobis officiis libero maiores exercitationem distinctio fugit, deserunt quas nihil natus harum expedita molestiae aliquam incidunt eligendi illum nulla corrupti? Est, voluptatem iure assumenda inventore incidunt alias deserunt, sunt ullam libero pariatur maiores.</p>
                     </div>
                     <div class="portfolio-left">
-                        <img src="img/jubilee-thumbnail.png" alt="Jubilee Project">
+                        <h3>Jubilee Austen Project<br>
+                        <span>HTML5 & CSS Website</span></h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi reprehenderit vitae officiis aspernatur in quam autem, velit, quis tempore maiores ex illo beatae eligendi exercitationem est officia nesciunt. Dolore officia incidunt explicabo consequatur aspernatur? Cumque quia ullam quae maxime quod, voluptatibus hic similique. Quam nisi perferendis, facilis nemo accusamus, inventore dolores dignissimos sunt soluta vel architecto quidem mollitia enim velit id optio quo nulla. Error, magnam?</p>
                     </div>
                     <div class="portfolio-right">
-                        <h3>Jubilee Austen Project<br>
-                            HTML5 & CSS Website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae. Totam molestiae sapiente rerum, tenetur id commodi neque ab perspiciatis!</p>
+                        <img src="img/jubilee-thumbnail.png" alt="Jubilee Project">
                     </div>
                     <div class="portfolio-left">
                         <img src="img/recipe-thumbnail.png" alt="Recipe Card">
                     </div>
                     <div class="portfolio-right">
                         <h3>Recipe Collection<br>
-                        HTML5 & CSS Exercise</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, recusandae. Totam molestiae sapiente rerum, tenetur id commodi neque ab perspiciatis!</p>
+                        <span>HTML5 & CSS Exercise</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, ipsum amet tempora architecto neque qui, veritatis sint, unde alias officiis voluptatibus soluta repellat. Quisquam id libero expedita animi velit placeat. Corrupti, maxime! Dolorem laudantium voluptate ullam dolores numquam ab facilis ratione fuga culpa, sapiente esse possimus tenetur vero et at, commodi hic explicabo exercitationem dolor enim inventore nesciunt molestias labore libero! Pariatur, corporis. Atque, placeat mollitia?</p>
                     </div>
                  </div> <!---end content-wrapper--->
             </section> <!---End Portfolio--->
 
-            <section id="about">
-                <h3>about me</h3>
-                <h5>I am passionate abut the web</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur delectus cum incidunt voluptatem nemo? Ullam ipsum distinctio aperiam temporibus dolor adipisci neque nam voluptates, amet consectetur in repudiandae animi possimus reprehenderit illo voluptatum sunt, veritatis sed et. Rem dignissimos nisi ipsam dolorem eius beatae? Ea dolore necessitatibus corporis id!</p>
+            <section class="about">
+                <div class="about-top">
+                    <h3>about me</h3>
+                </div>
+                <div class="about-body">
+                    <h5>I am passionate about the web.</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur delectus cum incidunt voluptatem nemo? Ullam ipsum distinctio aperiam temporibus dolor adipisci neque nam voluptates, amet consectetur in repudiandae animi possimus reprehenderit illo voluptatum sunt, veritatis sed et. Rem dignissimos nisi ipsam dolorem eius beatae? Ea dolore necessitatibus corporis id!</p>
+                </div>
             </section>
 
             <footer>
+                <h2>let's connect</h2>
+
                 <div class="footer-content">
+                    
                     <address class="contact">
                         <h4>Hire me</h4>
                         <p>
@@ -73,19 +87,31 @@
                             hello@codinginjeans.com
                         </p>
                     </address>
-                    <div class="social"></div>
+                    <div class="social">
                         <h4>Follow me</h4>
-                        <div class="social-icons"></div>
-                        <p>
-                            <a href="https://www.facebook.com/Skillcrush/" target="_blank"><i class="fab fa-facebook"></i></a>
-                        </p>
-                        <p>
-                            <a href="https://twitter.com/Skillcrush" target="_blank"><i class="fab fa-twitter"></i></a>
-                        </p>
-                        <p>
-                            <a href="https://www.instagram.com/skillcrush/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </p>
+                        <div class="social-icons">
+                            <p>
+                            <a href="https://www.twitter.com/SasiPatterson/" target="_blank"><i class="fab fa-twitter" style="color:rgb(31,32,43)"></i></a>
+                            </p>
+                            <p>
+                            <a href="https://github.com/sasimapatterson" target="_blank"><i class="fab fa-github"></i></i></a>
+                            </p>
+                            <p>
+                            <a href="https://www.linkedin.com/in/sasima-patterson-866a441b7/" target="_blank"><i class="fab fa-linkedin-in"></i></i></a> 
+                            </p>
+                        </div><!--- End Social-icons ---> 
                     </div><!---End Social--->
+
+                    <div class="hello">
+                        <div class="container"> 
+                            <div class="photo">
+                            <img src="img/me.jpg" alt="My photo">
+                            </div>
+                        <div class="overlay">
+                            <div class="text">Nice to meet you!</div>
+                        </div>
+                        </div>
+                    </div>
                 </div><!---End Footer-content--->
 
                 <div class="copyright">
