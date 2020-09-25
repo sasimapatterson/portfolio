@@ -93,7 +93,7 @@ header a {
     /*background-color: lightgrey;*/
 }
 
-.portfolio h2 {
+#portfolio h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
@@ -101,17 +101,17 @@ header a {
     margin-top: 44px;   
 }
 
-.portfolio h3 {
+#portfolio h3 {
     color: #fff;
     font-size: 24px;
 }
 
-.portfolio h3 span {
+#portfolio h3 span {
     font-weight: 400;
     color: #fff;
 }
 
-.portfolio p {
+#portfolio p {
     margin-top: 10px;
     color: #fff;
     font-size: 21px;
@@ -139,7 +139,7 @@ header a {
 
 /*--------- About Me ----------*/
 
-.about {
+#about {
     background-image: url('../img/about-me.png');
     background-size: cover;
     background-position: center;
@@ -191,13 +191,13 @@ footer h2 {
     
 }
 
-.contact {
+#contact {
     width: 30%;
     text-align: center;
     
 }
 
-.contact p {
+#contact p {
     margin-top: 20px;
 }
 
