@@ -72,7 +72,8 @@ header a {
     color: #fff;
     margin-left: 170px;
     padding-top: 400px;
-   
+    width: 800px;
+    background-color: lightpink;
 }
 
 .hero-area h1 span {
@@ -99,6 +100,11 @@ header a {
     font-size: 36px;
     color:#ff0066;
     margin-top: 44px;   
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #portfolio h3 {
@@ -156,7 +162,7 @@ header a {
 }
 
 .about-body {
-    width: 50%;
+    width: 800px;
     margin-left: 100px;
 }
 
@@ -187,7 +193,10 @@ footer h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    
     font-size: 20px;
+    
     
 }
 
@@ -201,10 +210,15 @@ footer h2 {
     margin-top: 20px;
 }
 
+#contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .social {
     width: 30%;
     text-align: center;
-     
+    
 }
 /*
 .social-icons p {
@@ -298,4 +312,5 @@ footer h2 {
     color: #fff;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
