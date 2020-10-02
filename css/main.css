@@ -32,6 +32,7 @@ header {
     flex-flow: row wrap;
     margin: 0;
 }
+
 header nav {
     /*font-family: 'Montserrat', sans-serif;*/
     font-size: 1em;
@@ -73,12 +74,10 @@ header a {
     margin-left: 170px;
     padding-top: 400px;
     width: 800px;
-    background-color: lightpink;
 }
 
 .hero-area h1 span {
-    color: #ff0066;
-    
+    color: #ff0066;   
 }
 
 /*--------- Portfolio ---------*/
@@ -130,8 +129,6 @@ header a {
     height: 450px;
     margin-top: 91px;
     margin-right: 86px;
-    
-    /*background-color: lightpink;*/
 }
 
 .portfolio-right {
@@ -140,7 +137,6 @@ header a {
     height: 450px; 
     margin-top: 91px;  
     margin-left: 86px;
-    /*background-color: lightblue;*/
 }
 
 /*--------- About Me ----------*/
@@ -179,13 +175,13 @@ header a {
 }
 
 /*----------- Footer ----------*/
+
 footer h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     color:#ff0066;
-    margin-top: 44px;
-    
+    margin-top: 44px;   
 }
 
 .footer-content {
@@ -193,17 +189,13 @@ footer h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    
-    font-size: 20px;
-    
-    
+    width: 1800px;
+    font-size: 20px;   
 }
 
 #contact {
     width: 30%;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 #contact p {
@@ -232,12 +224,10 @@ footer h2 {
     justify-content: space-between;
     width: 255px;
     margin-left: 130px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
 .fa-github {
-    
     color: #ff0066;
     font-size: 42px;    
 }
@@ -262,8 +252,7 @@ footer h2 {
 .hello {
     width: 30%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .container {
@@ -276,7 +265,6 @@ footer h2 {
     display: block;
     width: 100%;
     height: auto;
-    
     border-radius: 50%;    
 }
 
