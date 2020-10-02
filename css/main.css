@@ -13,67 +13,106 @@ white - #ffffff
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(31, 32, 43);
+    background-color: grey;/* rgb(31, 32, 43);*/
     font-family: 'Montserrat', sans-serif;    
     font-size: 16px;
-    box-sizing: border-box;
+    
 }
 
 /*---------- Header ----------*/
 
-header {
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
 }
 
-header nav {
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-size: 1em;
-    width: 30%;   
-} 
-
-header nav ul {
-    list-style-type: none;
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    padding: 2px;  
-    width: 95%;
-     
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #b81568;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
-header nav ul li {
-    
+#bar1 {
+    transform: translateY(-4px);
 }
 
-header a {
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav li a {
     color: #fff;
     text-decoration: none;
 }
 
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.nav li {
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change {
+    display: block;
+}
+
+
+
 .hero-area {
-    background-image: url('../img/hero-background.png');
+    background-image: linear-gradient( rgb(31, 32, 43), #ff0066); 
     background-size: cover;
     background-position: center;
-    height: 900px;    
+    
+    max-width: 100%;
+    height: auto;    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
 }
 
 .hero-area h1 {
     font-family: 'Source Code Pro', monospace;
-    font-size: 72px;
+    font-size: 60px;
     color: #fff;
-    margin-left: 170px;
-    padding-top: 400px;
-    width: 800px;
+    margin: auto 0;
+    padding-top: 100px;
+    width: 300px;
+    height: 400px;
 }
 
 .hero-area h1 span {
@@ -85,7 +124,6 @@ header a {
 .content-wrapper {
     max-width: 100%;
     display: flex;
-    max-width: 100%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;  
@@ -125,7 +163,7 @@ header a {
 
 .portfolio-left {
     flex-direction: column;
-    width: 650px;
+    width: 350px;
     height: 450px;
     margin-top: 91px;
     margin-right: 86px;
@@ -133,7 +171,7 @@ header a {
 
 .portfolio-right {
     flex-direction: column;
-    width: 650px;  /*w 550 h 350*/
+    width: 350px;  /*w 550 h 350*/
     height: 450px; 
     margin-top: 91px;  
     margin-left: 86px;
