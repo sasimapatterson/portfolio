@@ -13,17 +13,16 @@ white - #ffffff
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    background-color: grey;/* rgb(31, 32, 43);*/
+    background-color: rgb(31, 32, 43);
     font-family: 'Montserrat', sans-serif;    
     font-size: 16px;
-    
+    box-sizing: border-box;
 }
 
-/*---------- Header ----------*/
+/*--- Burger Nav Bar----*/
 
 #menu {
     width: 35px;
@@ -90,29 +89,21 @@ body {
     display: block;
 }
 
-
-
 .hero-area {
-    background-image: linear-gradient( rgb(31, 32, 43), #ff0066); 
+    background-image: url('../img/hero-background.png');
     background-size: cover;
     background-position: center;
-    
-    max-width: 100%;
-    height: auto;    
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    
+    height: 900px;    
 }
 
 .hero-area h1 {
     font-family: 'Source Code Pro', monospace;
-    font-size: 60px;
+    font-size: 72px;
     color: #fff;
-    margin: auto 0;
-    padding-top: 100px;
-    width: 300px;
-    height: 400px;
+    margin-left: 170px;
+    padding-top: 400px;
+    width: 800px;
+    background-color:
 }
 
 .hero-area h1 span {
@@ -128,7 +119,7 @@ body {
     align-items: center;
     flex-wrap: wrap;  
     box-sizing: border-box;  
-    /*background-color: lightgrey;*/
+    background-color: lightblue;
 }
 
 #portfolio h2 {
@@ -163,18 +154,20 @@ body {
 
 .portfolio-left {
     flex-direction: column;
-    width: 350px;
+    width: 650px;
     height: 450px;
     margin-top: 91px;
     margin-right: 86px;
+    background-color: lightgreen;
 }
 
 .portfolio-right {
     flex-direction: column;
-    width: 350px;  /*w 550 h 350*/
+    width: 650px;  /*w 550 h 350*/
     height: 450px; 
     margin-top: 91px;  
     margin-left: 86px;
+    background-color: lightpink;
 }
 
 /*--------- About Me ----------*/
@@ -184,7 +177,8 @@ body {
     background-size: cover;
     background-position: center;
     height: 700px;  
-    box-sizing: border-box;     
+    flex-direction: column;  
+    background-color: lightblue;
 }
 
 .about-top h3 {
@@ -192,12 +186,15 @@ body {
     font-family: 'Source Code Pro', monospace;
     font-size: 38px;
     text-align: center;
-    padding-top: 49px;    
+    padding-top: 49px;   
+    background-color: orange; 
 }
 
 .about-body {
-    width: 800px;
-    margin-left: 100px;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 800px;
+    background-color: salmon;
 }
 
 .about-body h5 {
@@ -340,3 +337,41 @@ footer h2 {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+/*------------------------------------------------------
+ Media Queries 
+ -----------------------------------------------------*/
+ @media screen and (max-width: 812px) {
+
+    .content-wrapper {
+        width: 100%;
+    }
+
+    .hero-area h1 {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 52px;
+        color: black;
+        margin-left: 10px;
+        padding-top: 400px;
+        width: 100%;  
+        background-color: yellow; 
+    }
+
+    .portfolio-left {
+        display: block;
+        width: 450px;
+        height: 250px;
+        margin-top: 91px;
+        margin-right: 86px;
+        background-color: lightgreen;
+    }
+    
+    .portfolio-right {
+        
+        width: 450px;  /*w 550 h 350*/
+        height: 250px; 
+        margin-top: 91px;  
+        margin-left: 86px;
+        background-color: lightpink;
+    }
+ }
