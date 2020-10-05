@@ -22,6 +22,7 @@ body {
     box-sizing: border-box;
 }
 
+
 /*--- Burger Nav Bar----*/
 
 #menu {
@@ -117,10 +118,10 @@ body {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;  
+    /*align-items: center;*/
+    flex-wrap: wrap;
     box-sizing: border-box;  
-    /*background-color: blue;*/
+    background-color: blue;
 }
 
 #portfolio {
@@ -130,10 +131,11 @@ body {
     flex-wrap: wrap;
     background-color: violet;
 }
+
 #portfolio h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
-    font-size: 36px;
+    font-size: 2.25em;
     color:#ff0066;
     margin-top: 44px;   
 }
@@ -145,7 +147,7 @@ body {
 
 #portfolio h3 {
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 #portfolio h3 span {
@@ -156,12 +158,12 @@ body {
 #portfolio p {
     margin-top: 10px;
     color: #fff;
-    font-size: 21px;
-    line-height: 27px;
+    font-size: 1.3125em;
+    line-height: 1.6875em;
 }
 
 .portfolio-left {
-    flex-direction: column;
+   
     width: 650px;
     height: 450px;
     margin-top: 91px;
@@ -170,7 +172,7 @@ body {
 }
 
 .portfolio-right {
-    flex-direction: column;
+    
     width: 650px;  /*w 550 h 350*/
     height: 450px; 
     margin-top: 91px;  
@@ -178,9 +180,6 @@ body {
     background-color: lightpink;
 }
 
-.portfolio-left h3 {
-    order: -1;
-}
 
 /*--------- About Me ----------*/
 
@@ -189,7 +188,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 700px;  
-    flex-direction: column;  
+    /*flex-direction: column;*/ 
     background-color: green;
 }
 
@@ -203,22 +202,27 @@ body {
 }
 
 .about-body {
-    max-width: 100%;
-    margin-left: 0px;
+    
+  
     margin-right: 800px;
     background-color: salmon;
 }
 
 .about-body h5 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     margin-top: 72px;
+    margin-left: 90px;
+    text-align: left;
 }
 
 .about-body p {
-    font-size: 24px;
+    width: 60%;
+    font-size: 1.5em;
+    margin-left: 90px;
     margin-top: 31px;
     line-height: 32px;
+    background-color: yellow;
 }
 
 /*----------- Footer ----------*/
