@@ -123,6 +123,12 @@ body {
     background-color: blue;
 }
 
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 #portfolio h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
@@ -169,6 +175,10 @@ body {
     margin-top: 91px;  
     margin-left: 86px;
     background-color: lightpink;
+}
+
+.portfolio-left h3 {
+    order: -1;
 }
 
 /*--------- About Me ----------*/
@@ -350,6 +360,7 @@ footer h2 {
 
     .content-wrapper {
         width: 100%;
+        display: flex;
     }
 
     .hero-area h1 {
@@ -380,6 +391,17 @@ footer h2 {
         background-color: lightpink;
     }
 
+    div#jubilee-img {order: 1;}
+    div#jubilee-text {order: 2;}
+    div#unplugged-text {order: 4;}
+    div#unplugged-img {order: 3;}
+    div#magic8-img {order: 5;}
+    div#magic8-text {order: 6;}
+       
+    }
+
+    
+
     img {
         max-width: 100%;
         margin: auto 0;
@@ -403,6 +425,8 @@ footer h2 {
         margin-top: 31px;
         line-height: 32px;
     }
+
+    
 
  }
 
