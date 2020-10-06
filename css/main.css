@@ -195,7 +195,7 @@ body {
 .about-top h3 {
     color: #ff0066;
     font-family: 'Source Code Pro', monospace;
-    font-size: 38px;
+    font-size: 2.375em;
     text-align: center;
     padding-top: 49px;   
     background-color: orange; 
@@ -204,6 +204,7 @@ body {
 .about-body {
     line-height: 20px;
     margin-right: 800px;
+    width: 100%;
     background-color: salmon;
 }
 
@@ -217,11 +218,11 @@ body {
 
 .about-body p {
     width: 60%;
-    font-size: 2vmn;
-    margin-left: 90px;
-    margin-top: 31px;
     
-    background-color:
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-left: 90px;
+    margin-top: 31px;   
 }
 
 /*----------- Footer ----------*/
@@ -229,7 +230,7 @@ body {
 footer h2 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
-    font-size: 36px;
+    font-size: 2.25em;
     color:#ff0066;
     margin-top: 44px;   
 }
@@ -240,7 +241,7 @@ footer h2 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    font-size: 20px;  
+    font-size: 1.25em;  
     background-color: yellow; 
 }
 
@@ -284,7 +285,7 @@ footer h2 {
 
 .fa-github {
     color: #ff0066;
-    font-size: 42px;  
+    font-size: 2.625em;  
     border-radius: 50%;
     padding: 5px;
    
@@ -295,7 +296,7 @@ footer h2 {
     background-color: #ff0066;
     border-radius: 50%;
     padding: 5px;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .fa-linkedin-in {
@@ -304,7 +305,7 @@ footer h2 {
     border-radius: 50%;
     padding: 6px;
     padding-left: 8px;
-    font-size: 29px;
+    font-size: 1.8125em;
 } 
 
 .fa-instagram {
@@ -313,7 +314,7 @@ footer h2 {
     border-radius: 50%;
     padding: 6px;
     padding-left: 8px;
-    font-size: 29px;
+    font-size: 1.8125em;
 }
 
 .hello {
@@ -356,7 +357,7 @@ footer h2 {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 1.25em;
     position: absolute;
     top: 45%;
     left: 10%;
@@ -383,7 +384,7 @@ footer h2 {
 
     .hero-area h1 {
         font-family: 'Source Code Pro', monospace;
-        font-size: 52px;
+        font-size: 3.25em;
         color: black;
         margin-left: 10px;
         padding-top: 400px;
@@ -396,6 +397,19 @@ footer h2 {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+    }
+
+    #portfolio h2 { 
+        font-size: 2em;     
+    }
+
+    #portfolio h3 {
+        font-size: 1.25em;
+    }
+
+    #portfolio p {
+        font-size: 1.125em;
+        line-height: 1.6875em;
     }
 
     .portfolio-left {
@@ -425,7 +439,7 @@ footer h2 {
     div#magic8-img {order: 5;}
     div#magic8-text {order: 6;}
        
-    }
+    
 
     img {
         max-width: 100%;
@@ -440,18 +454,15 @@ footer h2 {
     }
     
     .about-body h5 {
-        font-size: 20px;
+        font-size: 1.25em;
         font-weight: bold;
         margin-top: 72px;
     }
     
     .about-body p {
-        font-size: 20px;
+        font-size: 1em;
         margin-top: 31px;
-        line-height: 32px;
+        line-height: 1.5em;
     }
-
-    
-
  }
 
