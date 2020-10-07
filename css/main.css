@@ -464,5 +464,23 @@ footer h2 {
         margin-top: 31px;
         line-height: 1.5em;
     }
+
+    .footer-content {
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        font-size: 0.875em;  
+        background-color: yellow; 
+    }
+
+    footer h2 { 
+        font-size: 2em;     
+    }
+
+    .hello {
+        display: none;
+    }
  }
 
