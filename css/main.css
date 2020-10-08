@@ -183,13 +183,15 @@ body {
 
 /*--------- About Me ----------*/
 
+
 #about {
     background-image: url('../img/about-me.png');
     background-size: cover;
     background-position: center;
     height: 700px;  
     /*flex-direction: column;*/ 
-    background-color: green;
+   
+   
 }
 
 .about-top h3 {
@@ -202,10 +204,10 @@ body {
 }
 
 .about-body {
-    line-height: 20px;
+    line-height: 5px;
     margin-right: 800px;
     width: 100%;
-    background-color: salmon;
+    /*background-color: salmon;*/
 }
 
 .about-body h5 {
@@ -214,6 +216,7 @@ body {
     margin-top: 72px;
     margin-left: 90px;
     text-align: left;
+    line-height: 1.5em;
 }
 
 .about-body p {
@@ -264,7 +267,7 @@ footer h2 {
     width: 30%;
     text-align: center;
     
-    background-color: lightpink;
+   
 }
 /*
 .social-icons p {
@@ -280,15 +283,13 @@ footer h2 {
     text-align: center;
     
     margin-top: 20px;
-    background-color: white; 
+  
 }
 
 .fa-github {
     color: #ff0066;
     font-size: 2.625em;  
-    border-radius: 50%;
-    padding: 5px;
-   
+    border-radius: 0%;   
 }
 
 .fa-twitter {
@@ -392,6 +393,8 @@ footer h2 {
         background-color: salmon; 
     }
 
+    /*--------- Portfolio ---------*/
+
     #portfolio {
         display: flex;
         justify-content: center;
@@ -408,7 +411,7 @@ footer h2 {
     }
 
     #portfolio p {
-        font-size: 1.125em;
+        font-size: 1em;
         line-height: 1.6875em;
     }
 
@@ -446,24 +449,33 @@ footer h2 {
         margin: auto 0;
     }
 
+    /*--------- About Me ----------*/
+
     .about-body {
         width: 100%;
         margin-left: 0px;
         margin-right: 800px;
-        background-color: salmon;
+        /*background-color: salmon;*/
     }
     
     .about-body h5 {
         font-size: 1.25em;
         font-weight: bold;
         margin-top: 72px;
+        margin-left: 50px;
+        
     }
     
     .about-body p {
         font-size: 1em;
-        margin-top: 31px;
+        margin-top: 24px;
         line-height: 1.5em;
+        width: 80%;
+        text-align: left;
+        margin-left: 50px;
     }
+
+    /*----------- Footer ----------*/
 
     .footer-content {
         color: #fff;
@@ -479,8 +491,48 @@ footer h2 {
         font-size: 2em;     
     }
 
+    .social {
+        width: 30%;
+        text-align: center;
+        margin-top: 10px;
+       
+    }
+
+    .fa-github {
+        color: #ff0066;
+        font-size: 2.1875em;    
+    }
+    
+    .fa-twitter {
+        color: rgb(31, 32, 43);
+        background-color: #ff0066;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 1.375em;
+    }
+    
+    .fa-linkedin-in {
+        color: rgb(31, 32, 43);
+        background-color: #ff0066;
+        border-radius: 50%;
+        padding: 6px;
+        padding-left: 8px;
+        font-size: 1.25em;
+    } 
+    
+    .fa-instagram {
+        color: rgb(31, 32, 43);
+        background-color: #ff0066;
+        border-radius: 50%;
+        padding: 6px;
+        padding-left: 8px;
+        font-size: 1.25em;
+    }
+
     .hello {
         display: none;
     }
+
+
  }
 
