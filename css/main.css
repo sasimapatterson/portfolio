@@ -51,7 +51,7 @@ body {
 }
 
 .nav li a {
-    color: #fff;
+    color: #ff0066;
     text-decoration: none;
 }
 
@@ -62,6 +62,7 @@ body {
 .nav li {
     list-style: none;
     padding: 16px 0;
+    font-size: 1.5em;
    
 }
 
@@ -386,6 +387,13 @@ footer h2 {
         display: flex;
     }
 
+    .nav li {
+        list-style: none;
+        padding: 16px 0;
+        font-size: 1.5em;
+        line-height: .5em;
+    }
+
     .hero-area {
         background-image: url('../img/hero-background.png');
         background-size: cover;
@@ -396,10 +404,10 @@ footer h2 {
 
     .hero-area h1 {
         font-family: 'Source Code Pro', monospace;
-        font-size: 3.25em;
+        font-size: 2.75em;
         color: #fff;
-        margin-left: 10px;
-        padding-top: 100px;
+        margin-left: 20px;
+        padding-top: 225px;
         width: 100%;  
         /*background-color: salmon;*/
     }
@@ -503,13 +511,13 @@ footer h2 {
     }
 
     #contact {
-        width: 40%;
+        width: 30%;
         text-align: center;  
         font-size: 1.25em;
-        padding-top: 15px;
-        padding-bottom: 15px;
-       
-        /*background-color: blue;*/ 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        background-color:  #fff;
     }
 
 
@@ -520,7 +528,7 @@ footer h2 {
     
     #contact a {
         text-decoration: none;
-        color: #fff;
+        color: rgb(31, 32, 43);
     }
     
 
@@ -529,6 +537,10 @@ footer h2 {
         text-align: center;
         margin-top: 10px;
        
+    }
+
+    .social h4 {
+        display: none;
     }
 
     .fa-github {
