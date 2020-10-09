@@ -124,7 +124,7 @@ body {
     /*align-items: center;*/
     flex-wrap: wrap;
     box-sizing: border-box;  
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 #portfolio {
@@ -132,7 +132,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: violet;
+    /*background-color: violet;*/
 }
 
 #portfolio h2 {
@@ -171,7 +171,7 @@ body {
     height: 450px;
     margin-top: 91px;
     margin-right: 86px;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
 }
 
 .portfolio-right {
@@ -180,7 +180,7 @@ body {
     height: 450px; 
     margin-top: 91px;  
     margin-left: 86px;
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 
 
@@ -203,7 +203,7 @@ body {
     font-size: 2.375em;
     text-align: center;
     padding-top: 49px;   
-    background-color: orange; 
+    /*background-color: orange;*/ 
 }
 
 .about-body {
@@ -248,13 +248,13 @@ footer h2 {
     align-items: center;
     width: 100%;
     font-size: 1.25em;  
-    background-color: yellow; 
+    /*background-color: yellow; */
 }
 
 #contact {
     width: 30%;
     text-align: center;  
-    background-color: blue; 
+   /* background-color: blue; */
 }
 
 #contact p {
@@ -325,7 +325,7 @@ footer h2 {
     width: 30%;
     display: flex;
     justify-content: center;   
-    background-color: teal;
+    /*background-color: teal;*/
 }
 
 .container {
@@ -386,14 +386,22 @@ footer h2 {
         display: flex;
     }
 
+    .hero-area {
+        background-image: url('../img/hero-background.png');
+        background-size: cover;
+        background-position: center;
+        height: 400px;  
+        width: 100%;  
+    }
+
     .hero-area h1 {
         font-family: 'Source Code Pro', monospace;
         font-size: 3.25em;
-        color: black;
+        color: #fff;
         margin-left: 10px;
-        padding-top: 400px;
+        padding-top: 100px;
         width: 100%;  
-        background-color: salmon; 
+        /*background-color: salmon;*/
     }
 
     /*--------- Portfolio ---------*/
@@ -425,7 +433,7 @@ footer h2 {
         margin-top: 91px;
         margin-right: 10px;
         margin-left: 10px;
-        background-color: lightgreen;
+        /*background-color: lightgreen;*/
     }
     
     .portfolio-right {
@@ -435,7 +443,7 @@ footer h2 {
         margin-top: 91px;  
         margin-left: 10px;
         margin-right: 10px;
-        background-color: lightpink;
+       /* background-color: lightpink;*/
     }
 
     div#jubilee-img {order: 1;}
@@ -470,7 +478,7 @@ footer h2 {
     }
     
     .about-body p {
-        font-size: 1em;
+        font-size: .875em;
         margin-top: 24px;
         line-height: 1.5em;
         width: 80%;
@@ -487,12 +495,34 @@ footer h2 {
         align-items: center;
         width: 100%;
         font-size: 0.875em;  
-        background-color: yellow; 
+        /*background-color: yellow; */
     }
 
     footer h2 { 
         font-size: 2em;     
     }
+
+    #contact {
+        width: 40%;
+        text-align: center;  
+        font-size: 1.25em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       
+        /*background-color: blue;*/ 
+    }
+
+
+    
+    #contact p {
+        display: none;
+    }
+    
+    #contact a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
 
     .social {
         width: 30%;
