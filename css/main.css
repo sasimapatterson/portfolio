@@ -94,12 +94,13 @@ body {
     display: block;
 }
 
-.hero-area {
+#hero {
     background-image: url('../img/hero-background.png');
     background-size: cover;
     background-position: center;
     height: 900px;  
-    width: 100%;  
+    width: 100%; 
+    background-color: orange; 
 }
 
 .hero-area h1 {
@@ -109,7 +110,7 @@ body {
     margin-left: 170px;
     padding-top: 400px;
     width: 800px;
-    background-color:
+
 }
 
 .hero-area h1 span {
@@ -394,7 +395,7 @@ footer h2 {
         line-height: .5em;
     }
 
-    .hero-area {
+    #hero {
         background-image: url('../img/hero-background.png');
         background-size: cover;
         background-position: center;
@@ -404,7 +405,7 @@ footer h2 {
 
     .hero-area h1 {
         font-family: 'Source Code Pro', monospace;
-        font-size: 2.75em;
+        font-size: 2.5em;
         color: #fff;
         margin-left: 20px;
         padding-top: 225px;
@@ -470,6 +471,17 @@ footer h2 {
 
     /*--------- About Me ----------*/
 
+    #about {
+        background-image: url('../img/about-me.png');
+        background-size: cover;
+        background-position: center;
+        height: 700px;  
+        
+        /*flex-direction: column;*/  
+       
+    }
+    
+
     .about-body {
         width: 100%;
         margin-left: 0px;
@@ -498,9 +510,11 @@ footer h2 {
 
     .footer-content {
         color: #fff;
-        display: flex;
+        /*display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: center;*/
+        display: flex;
+        flex-direction: column;
         width: 100%;
         font-size: 0.875em;  
         /*background-color: yellow; */
@@ -519,8 +533,6 @@ footer h2 {
         margin-top: 30px;
         background-color:  #fff;
     }
-
-
     
     #contact p {
         display: none;
@@ -544,8 +556,10 @@ footer h2 {
     }
 
     .fa-github {
-        color: #ff0066;
-        font-size: 2.1875em;    
+        color: rgb(31, 32, 43);
+        font-size: 1.75em;    
+        background-color:#ff0066;
+        border-radius: 50%;
     }
     
     .fa-twitter {
@@ -553,7 +567,7 @@ footer h2 {
         background-color: #ff0066;
         border-radius: 50%;
         padding: 5px;
-        font-size: 1.375em;
+        font-size: .875em;
     }
     
     .fa-linkedin-in {
@@ -562,7 +576,7 @@ footer h2 {
         border-radius: 50%;
         padding: 6px;
         padding-left: 8px;
-        font-size: 1.25em;
+        font-size: .875em;
     } 
     
     .fa-instagram {
@@ -571,7 +585,7 @@ footer h2 {
         border-radius: 50%;
         padding: 6px;
         padding-left: 8px;
-        font-size: 1.25em;
+        font-size: .795em;
     }
 
     .hello {
