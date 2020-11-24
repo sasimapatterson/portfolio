@@ -94,6 +94,8 @@ body {
     display: block;
 }
 
+/*------ Top Portion -----*/
+
 #hero {
     background-image: url('../img/hero-background.png');
     background-size: cover;
@@ -185,18 +187,14 @@ body {
     /*background-color: lightpink;*/
 }
 
-
 /*--------- About Me ----------*/
-
 
 #about {
     background-image: url('../img/about-me.png');
     background-size: cover;
     background-position: center;
     height: 700px;  
-    /*flex-direction: column;*/ 
-   
-   
+    /*flex-direction: column;*/    
 }
 
 .about-top h3 {
@@ -270,9 +268,7 @@ footer h2 {
 
 .social {
     width: 30%;
-    text-align: center;
-    
-   
+    text-align: center;   
 }
 /*
 .social-icons p {
@@ -286,9 +282,7 @@ footer h2 {
 }
 .social-icons p {
     text-align: center;
-    
-    margin-top: 20px;
-  
+    margin-top: 20px;  
 }
 
 .fa-github {
@@ -381,7 +375,7 @@ footer h2 {
 /*------------------------------------------------------
  Media Queries 
  -----------------------------------------------------*/
- @media screen and (max-width: 812px) {
+ @media screen and (max-width: 1024px) {
 
     .content-wrapper {
         width: 100%;
@@ -481,7 +475,6 @@ footer h2 {
        
     }
     
-
     .about-body {
         width: 100%;
         margin-left: 0px;
@@ -543,12 +536,10 @@ footer h2 {
         color: rgb(31, 32, 43);
     }
     
-
     .social {
         width: 30%;
         text-align: center;
-        margin-top: 10px;
-       
+        margin-top: 10px;  
     }
 
     .social h4 {
@@ -591,7 +582,7 @@ footer h2 {
     .hello {
         display: none;
     }
-
-
  }
+
+
 
