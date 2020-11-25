@@ -266,6 +266,10 @@ footer h2 {
     color: #fff;
 }
 
+.contact-rspv {
+    display: none;
+}
+
 .social {
     width: 30%;
     text-align: center;   
@@ -324,6 +328,7 @@ footer h2 {
     /*background-color: teal;*/
 }
 
+
 .container {
     position: relative;
     width: 40%;
@@ -375,7 +380,7 @@ footer h2 {
 /*------------------------------------------------------
  Media Queries 
  -----------------------------------------------------*/
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1366px) {
 
     .content-wrapper {
         width: 100%;
@@ -430,24 +435,37 @@ footer h2 {
     }
 
     .portfolio-left {
-        
-        width: 100%;
+        width: 550px;
         height: 250px;
         margin-top: 91px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin: auto 0;
+        
         /*background-color: lightgreen;*/
     }
     
     .portfolio-right {
         
-        width: 100%;  /*w 550 h 350*/
+        width: 550px;  /*w 550 h 350*/
         height: 250px; 
         margin-top: 91px;  
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: auto 0;
        /* background-color: lightpink;*/
     }
+
+    #jubilee-text {
+        margin-top: 130px;
+    }
+
+    #unplugged-text {
+        margin-top: 130px;
+    }
+
+    #magic8-text {
+        margin-top: 130px;
+    }
+
+
+
 
     div#jubilee-img {order: 1;}
     div#jubilee-text {order: 2;}
@@ -469,10 +487,8 @@ footer h2 {
         background-image: url('../img/about-me.png');
         background-size: cover;
         background-position: center;
-        height: 700px;  
-        
-        /*flex-direction: column;*/  
-       
+        height: 700px;   
+        /*flex-direction: column;*/     
     }
     
     .about-body {
@@ -491,7 +507,7 @@ footer h2 {
     }
     
     .about-body p {
-        font-size: .875em;
+        font-size: 1em;
         margin-top: 24px;
         line-height: 1.5em;
         width: 80%;
@@ -535,7 +551,7 @@ footer h2 {
         text-decoration: none;
         color: rgb(31, 32, 43);
     }
-    
+
     .social {
         width: 30%;
         text-align: center;
