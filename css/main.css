@@ -24,32 +24,7 @@ body {
 }
 
 
-/*--- Burger Nav Bar----*/
-
-#menu {
-    width: 35px;
-    height: 30px;
-    margin: 30px 0 20px 20px;
-    cursor: pointer;
-    
-}
-
-.bar {
-    height: 5px;
-    width: 100%;
-    background-color: #b81568;
-    display: block;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-
-#bar1 {
-    transform: translateY(-4px);
-}
-
-#bar3 {
-    transform: translateY(4px);
-}
+/*--- Nav Menu ----*/
 
 .nav li a {
     color: #ff0066;
@@ -63,36 +38,16 @@ body {
 .nav li {
     list-style: none;
     padding: 16px 0;
-    font-size: 1.5em;
-   
+    font-size: 1.5em;   
 }
 
 .nav {
     padding: 0;
     margin: 0 20px;
     transition: 0.3s ease;
-    display: none;
-    position: absolute;
-}
-
-.change .bar {
-    background-color: white;
-}
-
-.change #bar1 {
-    transform: translateY(4px) rotateZ(-45deg);
-}
-
-.change #bar3 {
-    transform: translateY(-6px) rotate(45deg);
-}
-
-.change #bar2 {
-    opacity: 0;
-}
-
-.change {
-    display: block;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 1300px;    
 }
 
 /*------ Top Portion -----*/
@@ -104,6 +59,8 @@ body {
     height: 900px;  
     width: 100%; 
     background-color: orange; 
+    margin-top: -60px;
+    
 }
 
 .hero-area h1 {
@@ -388,12 +345,79 @@ footer h2 {
         display: flex;
     }
 
+    /*----  Burger Nav -----*/
+
+   
+
+    #menu {
+        width: 35px;
+        height: 35px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;        
+    }
+    
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #b81568;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;   
+    }
+    
+    #bar1 {
+        transform: translateY(-4px);
+    }
+    
+    #bar3 {
+        transform: translateY(4px);
+    }
+    
+    .nav li a {
+        color: #ff0066;
+        text-decoration: none;
+    }
+    
+    .nav li a:hover {
+        font-weight: bold;
+    }
+    
     .nav li {
         list-style: none;
         padding: 16px 0;
         font-size: 1.5em;
         line-height: .5em;
     }
+    
+    .nav {
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+        position: absolute;    
+    }
+    
+    .change .bar {
+        background-color: white;
+    }
+    
+    .change #bar1 {
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+    
+    .change #bar3 {
+        transform: translateY(-6px) rotate(45deg);
+    }
+    
+    .change #bar2 {
+        opacity: 0;
+    }
+    
+    .change {
+        display: block;
+    }
+    
+    /*------ Top Portion -----*/
 
     #hero {
         background-image: url('../img/hero-background.png');
@@ -401,6 +425,7 @@ footer h2 {
         background-position: center;
         height: 400px;  
         width: 100%;  
+        margin-top: -50px;
     }
 
     .hero-area h1 {
