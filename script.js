@@ -3,7 +3,7 @@ mybutton = document.getElementById("myBtn");
 
 // When user scrolls down 20px the button will show up
  window.onscroll = function() {
-     scrollFunction();
+     scrollFunction()
     };
 
  function scrollFunction() {
