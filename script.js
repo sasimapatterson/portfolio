@@ -1,9 +1,3 @@
-// To open and close menu using burger nav
-function onClickMenu() {
-    document.getElementById("menu").classList.toggle("change");
-    document.getElementById("nav").classList.toggle("change");
- }
-
 // Back-to-top button
 mybutton = document.getElementById("myBtn");
 
@@ -26,4 +20,8 @@ mybutton = document.getElementById("myBtn");
      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
- 
+ // To open and close menu using burger nav
+function onClickMenu() {
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+ }
