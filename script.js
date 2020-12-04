@@ -1,13 +1,11 @@
 // To open and close menu using burger nav
-
 function onClickMenu() {
-
     document.getElementById("menu").classList.toggle("change");
     document.getElementById("nav").classList.toggle("change");
  }
 
+// Back-to-top button
 mybutton = document.getElementById("myBtn");
-
 
 // When user scrolls down 20px the button will show up
  window.onscroll = function() {
