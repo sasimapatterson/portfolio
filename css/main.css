@@ -28,7 +28,7 @@ body {
 
 .nav li a {
     color: #ff0066;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .nav li a:hover {
@@ -38,7 +38,7 @@ body {
 .nav li {
     list-style: none;
     padding: 16px 0;
-    font-size: 1.5em;   
+    font-size: 1.5em;      
 }
 
 .nav {
@@ -47,7 +47,8 @@ body {
     transition: 0.3s ease;
     display: flex;
     justify-content: space-between; 
-    margin-left: 1300px;    
+    margin-left: 1300px; 
+    
 }
 
 /*------ Top Portion -----*/
@@ -59,7 +60,7 @@ body {
     height: 900px;  
     width: 100%; 
     background-color: orange; 
-    margin-top: -60px;
+    margin-top: -30px;
     
 }
 
@@ -83,10 +84,8 @@ body {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     flex-wrap: wrap;
     box-sizing: border-box;  
-    /*background-color: blue;*/
 }
 
 #portfolio {
@@ -94,7 +93,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /*background-color: violet;*/
 }
 
 #portfolio h2 {
@@ -133,7 +131,6 @@ body {
     height: 450px;
     margin-top: 91px;
     margin-right: 86px;
-    /*background-color: lightgreen;*/
 }
 
 .portfolio-right {
@@ -142,7 +139,6 @@ body {
     height: 450px; 
     margin-top: 91px;  
     margin-left: 86px;
-    /*background-color: lightpink;*/
 }
 
 /*--------- About Me ----------*/
@@ -151,8 +147,7 @@ body {
     background-image: url('../img/about-me.png');
     background-size: cover;
     background-position: center;
-    height: 700px;  
-    /*flex-direction: column;*/    
+    height: 700px;      
 }
 
 .about-top h3 {
@@ -161,14 +156,12 @@ body {
     font-size: 2.375em;
     text-align: center;
     padding-top: 49px;   
-    /*background-color: orange;*/ 
 }
 
 .about-body {
     line-height: 5px;
     margin-right: 800px;
     width: 100%;
-    /*background-color: salmon;*/
 }
 
 .about-body h5 {
@@ -206,13 +199,12 @@ footer h2 {
     align-items: center;
     width: 100%;
     font-size: 1.25em;  
-    /*background-color: yellow; */
+    
 }
 
 #contact {
     width: 30%;
     text-align: center;  
-   /* background-color: blue; */
 }
 
 #contact p {
@@ -232,16 +224,13 @@ footer h2 {
     width: 30%;
     text-align: center;   
 }
-/*
-.social-icons p {
-    background-color: orange;
-    text-align: center;
-}*/
+
 .social-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .social-icons p {
     text-align: center;
     margin-top: 20px;  
@@ -283,9 +272,7 @@ footer h2 {
     width: 30%;
     display: flex;
     justify-content: center;   
-    /*background-color: teal;*/
 }
-
 
 .container {
     position: relative;
@@ -335,6 +322,26 @@ footer h2 {
     margin-bottom: 15px;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;/* Sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Position the button 30px from the right */
+    z-index: 99; /* Make sure it doesn't overlap */
+    border:  none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#myBtn:hover {
+    background-color: grey;
+}
+
 /*------------------------------------------------------
  Media Queries 
  -----------------------------------------------------*/
@@ -346,8 +353,6 @@ footer h2 {
     }
 
     /*----  Burger Nav -----*/
-
-   
 
     #menu {
         width: 35px;
@@ -416,7 +421,7 @@ footer h2 {
     .change {
         display: block;
     }
-    
+
     /*------ Top Portion -----*/
 
     #hero {
@@ -435,7 +440,6 @@ footer h2 {
         margin-left: 20px;
         padding-top: 225px;
         width: 100%;  
-        /*background-color: salmon;*/
     }
 
     /*--------- Portfolio ---------*/
@@ -465,17 +469,13 @@ footer h2 {
         height: 250px;
         margin-top: 91px;
         margin: auto 0;
-        
-        /*background-color: lightgreen;*/
     }
     
-    .portfolio-right {
-        
+    .portfolio-right { 
         width: 550px;  /*w 550 h 350*/
         height: 250px; 
         margin-top: 91px;  
         margin: auto 0;
-       /* background-color: lightpink;*/
     }
 
     #jubilee-text {
@@ -490,9 +490,6 @@ footer h2 {
         margin-top: 130px;
     }
 
-
-
-
     div#jubilee-img {order: 1;}
     div#jubilee-text {order: 2;}
     div#unplugged-text {order: 4;}
@@ -501,7 +498,6 @@ footer h2 {
     div#magic8-text {order: 6;}
        
     
-
     img {
         max-width: 100%;
         margin: auto 0;
@@ -513,23 +509,20 @@ footer h2 {
         background-image: url('../img/about-me.png');
         background-size: cover;
         background-position: center;
-        height: 700px;   
-        /*flex-direction: column;*/     
+        height: 700px;      
     }
     
     .about-body {
         width: 100%;
         margin-left: 0px;
         margin-right: 800px;
-        /*background-color: salmon;*/
     }
     
     .about-body h5 {
         font-size: 1.25em;
         font-weight: bold;
         margin-top: 72px;
-        margin-left: 50px;
-        
+        margin-left: 50px;    
     }
     
     .about-body p {
@@ -545,14 +538,10 @@ footer h2 {
 
     .footer-content {
         color: #fff;
-        /*display: flex;
-        justify-content: space-around;
-        align-items: center;*/
         display: flex;
         flex-direction: column;
         width: 100%;
         font-size: 0.875em;  
-        /*background-color: yellow; */
     }
 
     footer h2 { 
