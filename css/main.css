@@ -482,7 +482,7 @@ footer h2 {
         margin-top: 130px;
     }
 
-    #unplugged-text {
+    #noteTaker-text {
         margin-top: 130px;
     }
 
@@ -492,10 +492,10 @@ footer h2 {
 
     div#jubilee-img {order: 1;}
     div#jubilee-text {order: 2;}
-    div#unplugged-text {order: 4;}
-    div#unplugged-img {order: 3;}
-    div#magic8-img {order: 5;}
-    div#magic8-text {order: 6;}
+    div#noteTaker-text {order: 4;}
+    div#noteTaker-img {order: 3;}
+    div#weatherDash-img {order: 5;}
+    div#weatherDash-text {order: 6;}
        
     
     img {
