@@ -452,7 +452,8 @@ footer h2 {
     }
 
     #portfolio h2 { 
-        font-size: 2em;     
+        font-size: 2em;
+        margin-top: 20px;    
     }
 
     #portfolio h3 {
@@ -479,15 +480,15 @@ footer h2 {
     }
 
     #jubilee-text {
-        margin-top: 130px;
+        margin-top: 50px;
     }
 
     #noteTaker-text {
-        margin-top: 130px;
+        margin-top: 50px;
     }
 
-    #magic8-text {
-        margin-top: 130px;
+    #weatherDash-text {
+        margin-top: 50px;
     }
 
     div#jubilee-img {order: 1;}
@@ -501,6 +502,18 @@ footer h2 {
     img {
         max-width: 100%;
         margin: auto 0;
+    }
+
+    #noteTaker-img {
+        margin-top: 60px;
+    }
+
+    #jubilee-img {
+        margin-top: 20px;
+    }
+
+    #weatherDash-img {
+        margin-top: -10px;
     }
 
     /*--------- About Me ----------*/
@@ -521,7 +534,7 @@ footer h2 {
     .about-body h5 {
         font-size: 1.25em;
         font-weight: bold;
-        margin-top: 72px;
+        margin-top: 35px; /*72px*/
         margin-left: 50px;    
     }
     
